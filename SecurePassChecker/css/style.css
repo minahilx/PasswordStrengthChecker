@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: #000435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #ffff;
+    background: transparent;
+}
+
+.input-box input[type="password"] {
+    padding-right: 40px;
+}
+
+.input-box input[type="password"]:focus {
+    padding-right: 20px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password img {
+    width: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.toggle-password img:hover {
+    opacity: 1;
+}
+
+#message {
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}
+
+.toast {
+position: fixed;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+opacity: 0.9;
+font-size: 14px;
+z-index: 9999;
+transition: opacity 0.3s ease;
+}
+
+.toast:hover {
+opacity: 1;
+}
+
+
+::placeholder {
+    font-size: 15px;
+}
