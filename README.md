@@ -11,4 +11,7 @@ Features:
 It can be easily integrated into any web project or used as a standalone password strength checker.
 
 
-https://github.com/minahilx/PasswordStrengthChecker/assets/71601253/00786ed7-f218-4a60-9df4-2f8124715dad
+https://github.com/minahilx/PasswordStrengthChecker/assets/71601253/e6067655-ccf7-4a34-a6f4-9c2e764e657e
+
+
+
