@@ -9,3 +9,6 @@ Features:
 - User-friendly toast messages for guidance and error notifications
 
 It can be easily integrated into any web project or used as a standalone password strength checker.
+
+
+https://github.com/minahilx/PasswordStrengthChecker/assets/71601253/00786ed7-f218-4a60-9df4-2f8124715dad
